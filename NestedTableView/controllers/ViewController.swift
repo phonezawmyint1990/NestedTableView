@@ -13,7 +13,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableViewParentList: UITableView!
     
-    var parentList:[ParentVO] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewParentList.delegate = self
@@ -31,7 +30,6 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       // return self.parentList.count
         return ParentModel.shared().parentList.count
     }
     
