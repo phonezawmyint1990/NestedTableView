@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77C31619DCB884B4F2072073 /* Pods_NestedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B5BAA163EC2044841A94C0 /* Pods_NestedTableView.framework */; };
+		FB1A2F132336129B007AE5A8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A2F122336129B007AE5A8 /* NetworkClient.swift */; };
+		FB1A2F16233612FA007AE5A8 /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A2F15233612FA007AE5A8 /* SharedConstants.swift */; };
+		FB1A2F1923361448007AE5A8 /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A2F1823361448007AE5A8 /* ParentModel.swift */; };
+		FB80C4A4232E4B4600FD0690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C4A3232E4B4600FD0690 /* AppDelegate.swift */; };
+		FB80C4A6232E4B4600FD0690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C4A5232E4B4600FD0690 /* ViewController.swift */; };
+		FB80C4A9232E4B4600FD0690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB80C4A7232E4B4600FD0690 /* Main.storyboard */; };
+		FB80C4AB232E4B4700FD0690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB80C4AA232E4B4700FD0690 /* Assets.xcassets */; };
+		FB80C4AE232E4B4700FD0690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB80C4AC232E4B4700FD0690 /* LaunchScreen.storyboard */; };
+		FB80C4B7232E4CDC00FD0690 /* ParentListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C4B5232E4CDC00FD0690 /* ParentListItemTableViewCell.swift */; };
+		FB80C4B8232E4CDC00FD0690 /* ParentListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB80C4B6232E4CDC00FD0690 /* ParentListItemTableViewCell.xib */; };
+		FB80C4BB232E4E5200FD0690 /* ChildListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C4B9232E4E5200FD0690 /* ChildListItemTableViewCell.swift */; };
+		FB80C4BC232E4E5200FD0690 /* ChildListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB80C4BA232E4E5200FD0690 /* ChildListItemTableViewCell.xib */; };
+		FB80C4BE232E533300FD0690 /* ChildVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C4BD232E533300FD0690 /* ChildVO.swift */; };
+		FB80C4C0232E537100FD0690 /* ParentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C4BF232E537100FD0690 /* ParentVO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B5BAA163EC2044841A94C0 /* Pods_NestedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5334D673AA426086D9C5B373 /* Pods-NestedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.release.xcconfig"; sourceTree = "<group>"; };
+		ADE165EEB29C93CCD81FAE45 /* Pods-NestedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1A2F122336129B007AE5A8 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		FB1A2F15233612FA007AE5A8 /* SharedConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
+		FB1A2F1823361448007AE5A8 /* ParentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
+		FB80C4A0232E4B4600FD0690 /* NestedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB80C4A3232E4B4600FD0690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB80C4A5232E4B4600FD0690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB80C4A8232E4B4600FD0690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB80C4AA232E4B4700FD0690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB80C4AD232E4B4700FD0690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB80C4AF232E4B4700FD0690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB80C4B5232E4CDC00FD0690 /* ParentListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentListItemTableViewCell.swift; sourceTree = "<group>"; };
+		FB80C4B6232E4CDC00FD0690 /* ParentListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentListItemTableViewCell.xib; sourceTree = "<group>"; };
+		FB80C4B9232E4E5200FD0690 /* ChildListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListItemTableViewCell.swift; sourceTree = "<group>"; };
+		FB80C4BA232E4E5200FD0690 /* ChildListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildListItemTableViewCell.xib; sourceTree = "<group>"; };
+		FB80C4BD232E533300FD0690 /* ChildVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVO.swift; sourceTree = "<group>"; };
+		FB80C4BF232E537100FD0690 /* ParentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB80C49D232E4B4600FD0690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C31619DCB884B4F2072073 /* Pods_NestedTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4950AF0111F135321831F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADE165EEB29C93CCD81FAE45 /* Pods-NestedTableView.debug.xcconfig */,
+				5334D673AA426086D9C5B373 /* Pods-NestedTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0600E86330D20F21348AE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B5BAA163EC2044841A94C0 /* Pods_NestedTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1A2F1123361264007AE5A8 /* networkclients */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A2F122336129B007AE5A8 /* NetworkClient.swift */,
+			);
+			path = networkclients;
+			sourceTree = "<group>";
+		};
+		FB1A2F14233612D6007AE5A8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A2F15233612FA007AE5A8 /* SharedConstants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		FB1A2F1723361435007AE5A8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A2F1823361448007AE5A8 /* ParentModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FB48DB6D232F7BA5009BF36E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB80C4A5232E4B4600FD0690 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FB48DB6E232F7BAF009BF36E /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB80C4AC232E4B4700FD0690 /* LaunchScreen.storyboard */,
+				FB80C4A7232E4B4600FD0690 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		FB48DB6F232F7BBA009BF36E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB48DB71232F7BC8009BF36E /* swifts */,
+				FB48DB70232F7BC1009BF36E /* xibs */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FB48DB70232F7BC1009BF36E /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				FB80C4BA232E4E5200FD0690 /* ChildListItemTableViewCell.xib */,
+				FB80C4B6232E4CDC00FD0690 /* ParentListItemTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		FB48DB71232F7BC8009BF36E /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				FB80C4B9232E4E5200FD0690 /* ChildListItemTableViewCell.swift */,
+				FB80C4B5232E4CDC00FD0690 /* ParentListItemTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		FB48DB72232F7C06009BF36E /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				FB80C4BF232E537100FD0690 /* ParentVO.swift */,
+				FB80C4BD232E533300FD0690 /* ChildVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		FB80C497232E4B4600FD0690 = {
+			isa = PBXGroup;
+			children = (
+				FB80C4A2232E4B4600FD0690 /* NestedTableView */,
+				FB80C4A1232E4B4600FD0690 /* Products */,
+				AE4950AF0111F135321831F2 /* Pods */,
+				C0600E86330D20F21348AE16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB80C4A1232E4B4600FD0690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB80C4A0232E4B4600FD0690 /* NestedTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB80C4A2232E4B4600FD0690 /* NestedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A2F1723361435007AE5A8 /* model */,
+				FB1A2F14233612D6007AE5A8 /* utils */,
+				FB1A2F1123361264007AE5A8 /* networkclients */,
+				FB48DB72232F7C06009BF36E /* vos */,
+				FB48DB6F232F7BBA009BF36E /* cells */,
+				FB48DB6E232F7BAF009BF36E /* storyboards */,
+				FB48DB6D232F7BA5009BF36E /* controllers */,
+				FB80C4A3232E4B4600FD0690 /* AppDelegate.swift */,
+				FB80C4AA232E4B4700FD0690 /* Assets.xcassets */,
+				FB80C4AF232E4B4700FD0690 /* Info.plist */,
+			);
+			path = NestedTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB80C49F232E4B4600FD0690 /* NestedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB80C4B2232E4B4700FD0690 /* Build configuration list for PBXNativeTarget "NestedTableView" */;
+			buildPhases = (
+				7FA74209868B2695357E965A /* [CP] Check Pods Manifest.lock */,
+				FB80C49C232E4B4600FD0690 /* Sources */,
+				FB80C49D232E4B4600FD0690 /* Frameworks */,
+				FB80C49E232E4B4600FD0690 /* Resources */,
+				A98E05E9ABE240BB764573AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedTableView;
+			productName = NestedTableView;
+			productReference = FB80C4A0232E4B4600FD0690 /* NestedTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB80C498232E4B4600FD0690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Phone Zaw Myint";
+				TargetAttributes = {
+					FB80C49F232E4B4600FD0690 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB80C49B232E4B4600FD0690 /* Build configuration list for PBXProject "NestedTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB80C497232E4B4600FD0690;
+			productRefGroup = FB80C4A1232E4B4600FD0690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB80C49F232E4B4600FD0690 /* NestedTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB80C49E232E4B4600FD0690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB80C4B8232E4CDC00FD0690 /* ParentListItemTableViewCell.xib in Resources */,
+				FB80C4AE232E4B4700FD0690 /* LaunchScreen.storyboard in Resources */,
+				FB80C4AB232E4B4700FD0690 /* Assets.xcassets in Resources */,
+				FB80C4BC232E4E5200FD0690 /* ChildListItemTableViewCell.xib in Resources */,
+				FB80C4A9232E4B4600FD0690 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FA74209868B2695357E965A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98E05E9ABE240BB764573AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB80C49C232E4B4600FD0690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB80C4BE232E533300FD0690 /* ChildVO.swift in Sources */,
+				FB1A2F1923361448007AE5A8 /* ParentModel.swift in Sources */,
+				FB80C4A6232E4B4600FD0690 /* ViewController.swift in Sources */,
+				FB80C4C0232E537100FD0690 /* ParentVO.swift in Sources */,
+				FB80C4A4232E4B4600FD0690 /* AppDelegate.swift in Sources */,
+				FB1A2F16233612FA007AE5A8 /* SharedConstants.swift in Sources */,
+				FB1A2F132336129B007AE5A8 /* NetworkClient.swift in Sources */,
+				FB80C4BB232E4E5200FD0690 /* ChildListItemTableViewCell.swift in Sources */,
+				FB80C4B7232E4CDC00FD0690 /* ParentListItemTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB80C4A7232E4B4600FD0690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB80C4A8232E4B4600FD0690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB80C4AC232E4B4700FD0690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB80C4AD232E4B4700FD0690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB80C4B0232E4B4700FD0690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB80C4B1232E4B4700FD0690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB80C4B3232E4B4700FD0690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE165EEB29C93CCD81FAE45 /* Pods-NestedTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.NestedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB80C4B4232E4B4700FD0690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5334D673AA426086D9C5B373 /* Pods-NestedTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.NestedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB80C49B232E4B4600FD0690 /* Build configuration list for PBXProject "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB80C4B0232E4B4700FD0690 /* Debug */,
+				FB80C4B1232E4B4700FD0690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB80C4B2232E4B4700FD0690 /* Build configuration list for PBXNativeTarget "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB80C4B3232E4B4700FD0690 /* Debug */,
+				FB80C4B4232E4B4700FD0690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB80C498232E4B4600FD0690 /* Project object */;
+}
